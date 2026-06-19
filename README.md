@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on customer behavior and service usage patterns.
+Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on service usage, billing information, and customer behavior.
 
-The project is designed to help businesses identify at-risk customers and improve retention strategies.
+The project helps businesses identify at-risk customers and improve customer retention.
 
 ---
 
@@ -18,6 +18,17 @@ The project is designed to help businesses identify at-risk customers and improv
 - Churn Distribution Analysis
 - Dataset Summary Generation
 
+### Day 2
+
+- Data Cleaning
+- Missing Value Handling
+- Feature Engineering
+- Churn Visualization
+- Contract Analysis
+- Monthly Charges Analysis
+- Correlation Analysis
+- Clean Dataset Export
+
 ---
 
 ## Technologies Used
@@ -25,20 +36,22 @@ The project is designed to help businesses identify at-risk customers and improv
 - Python
 - Pandas
 - NumPy
+- Matplotlib
 - Google Colab
 
 ---
 
-## Target Users
+## Dataset
 
-- Data Analysts
-- Business Analysts
-- Data Scientists
-- Machine Learning Engineers
+Telco Customer Churn Dataset
+
+File:
+
+WA_Fn-UseC_-Telco-Customer-Churn.csv
 
 ---
 
-## Project Workflow
+## Workflow
 
 Dataset Upload
 
@@ -56,6 +69,10 @@ Feature Engineering
 
 ↓
 
+Data Visualization
+
+↓
+
 Model Training
 
 ↓
@@ -64,20 +81,30 @@ Churn Prediction
 
 ---
 
+## Key Business Questions
+
+- What percentage of customers churn?
+- Do higher charges lead to more churn?
+- Does contract type impact churn?
+- Which customer segments are most likely to leave?
+
+---
+
 ## Upcoming Features
 
-### Day 2
+### Day 3
 
-- Data Cleaning
-- Feature Engineering
-- Data Visualization
-- Correlation Analysis
+- Label Encoding
+- Train/Test Split
+- Logistic Regression Model
+- Model Evaluation
+- Accuracy Calculation
 
 ---
 
 ## Project Status
 
-Day 1 of Development
+Day 2 of Development
 
 ---
 
