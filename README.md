@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on service usage, billing information, and customer behavior.
+Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on customer behavior, contract details, billing information, and service usage patterns.
 
-The project helps businesses identify at-risk customers and improve customer retention.
+The project helps businesses identify at-risk customers and improve retention strategies.
 
 ---
 
@@ -23,11 +23,20 @@ The project helps businesses identify at-risk customers and improve customer ret
 - Data Cleaning
 - Missing Value Handling
 - Feature Engineering
-- Churn Visualization
-- Contract Analysis
-- Monthly Charges Analysis
+- Data Visualization
 - Correlation Analysis
-- Clean Dataset Export
+- Dataset Export
+
+### Day 3
+
+- Label Encoding
+- Train/Test Split
+- Logistic Regression Model
+- Churn Prediction
+- Model Evaluation
+- Accuracy Measurement
+- Feature Importance Analysis
+- Business Insights Generation
 
 ---
 
@@ -37,6 +46,7 @@ The project helps businesses identify at-risk customers and improve customer ret
 - Pandas
 - NumPy
 - Matplotlib
+- Scikit-Learn
 - Google Colab
 
 ---
@@ -57,10 +67,6 @@ Dataset Upload
 
 ↓
 
-Data Exploration
-
-↓
-
 Data Cleaning
 
 ↓
@@ -69,42 +75,59 @@ Feature Engineering
 
 ↓
 
-Data Visualization
-
-↓
-
 Model Training
 
 ↓
 
-Churn Prediction
+Prediction
+
+↓
+
+Evaluation
+
+↓
+
+Business Insights
 
 ---
 
-## Key Business Questions
+## Model Used
 
-- What percentage of customers churn?
-- Do higher charges lead to more churn?
-- Does contract type impact churn?
-- Which customer segments are most likely to leave?
+Logistic Regression
+
+---
+
+## Metrics
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+---
+
+## Business Questions Answered
+
+- Which customers are likely to churn?
+- Which factors contribute most to churn?
+- How accurately can churn be predicted?
+- Which business areas require attention?
 
 ---
 
 ## Upcoming Features
 
-### Day 3
+### Day 4
 
-- Label Encoding
-- Train/Test Split
-- Logistic Regression Model
-- Model Evaluation
-- Accuracy Calculation
+- Random Forest Model
+- Model Comparison
+- Churn Prediction Dashboard
+- Final Project Documentation
 
 ---
 
 ## Project Status
 
-Day 2 of Development
+Day 3 of Development
 
 ---
 
