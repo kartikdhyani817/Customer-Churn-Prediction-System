@@ -2,40 +2,53 @@
 
 ## Project Overview
 
-Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on customer behavior, contract details, billing information, and service usage patterns.
+Customer Churn Prediction System is a machine learning project that predicts whether a customer is likely to leave a company based on customer demographics, service usage, billing information, and account history.
 
-The project helps businesses identify at-risk customers and improve retention strategies.
+The project helps businesses identify at-risk customers and improve customer retention strategies.
 
 ---
 
-## Features Completed
+## Features
 
-### Day 1
+### Data Exploration
 
 - Dataset Upload
-- Dataset Exploration
+- Dataset Profiling
 - Missing Value Analysis
 - Churn Distribution Analysis
-- Dataset Summary Generation
 
-### Day 2
+### Data Preparation
 
 - Data Cleaning
 - Missing Value Handling
 - Feature Engineering
-- Data Visualization
-- Correlation Analysis
-- Dataset Export
-
-### Day 3
-
 - Label Encoding
+
+### Data Visualization
+
+- Churn Distribution Charts
+- Contract Analysis
+- Monthly Charges Analysis
+- Correlation Analysis
+
+### Machine Learning
+
+- Logistic Regression
+- Random Forest Classifier
 - Train/Test Split
-- Logistic Regression Model
 - Churn Prediction
-- Model Evaluation
-- Accuracy Measurement
+
+### Model Evaluation
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Model Comparison
+
+### Business Intelligence
+
 - Feature Importance Analysis
+- Churn Driver Identification
 - Business Insights Generation
 
 ---
@@ -75,6 +88,10 @@ Feature Engineering
 
 ↓
 
+Visualization
+
+↓
+
 Model Training
 
 ↓
@@ -91,43 +108,64 @@ Business Insights
 
 ---
 
-## Model Used
+## Models Used
 
-Logistic Regression
+### Logistic Regression
+
+Used as a baseline classification model.
+
+### Random Forest
+
+Used to improve prediction performance and identify important churn drivers.
 
 ---
 
-## Metrics
+## Evaluation Metrics
 
 - Accuracy Score
 - Confusion Matrix
-- Classification Report
+- Precision
+- Recall
+- F1 Score
 
 ---
 
 ## Business Questions Answered
 
 - Which customers are likely to churn?
-- Which factors contribute most to churn?
-- How accurately can churn be predicted?
-- Which business areas require attention?
+- What factors drive customer churn?
+- Which model performs best?
+- How can businesses reduce churn?
 
 ---
 
-## Upcoming Features
+## Skills Demonstrated
 
-### Day 4
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Machine Learning
+- Business Analytics
+- Predictive Modeling
+- Model Evaluation
 
-- Random Forest Model
-- Model Comparison
-- Churn Prediction Dashboard
-- Final Project Documentation
+---
+
+## Repository Structure
+
+Customer-Churn-Prediction-System/
+
+├── Customer_Churn_Prediction.ipynb
+
+├── README.md
+
+└── WA_Fn-UseC_-Telco-Customer-Churn.csv
 
 ---
 
 ## Project Status
 
-Day 3 of Development
+Completed
 
 ---
 
